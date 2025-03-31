@@ -54,3 +54,7 @@ Between input (3 neurons) → hidden (2 neurons): np.random.randn(2, 3)
 
 Between hidden (2 neurons) → output (1 neuron): np.random.randn(1, 2)
 
+##
+Neural networks are fed forward with a random weight and bias for each node. Then the difference of the squares of results - expected values is calculated. This is called the loss/cost.
+Through back propagation, Stochastic gradient descent is used to get closer results.
+
